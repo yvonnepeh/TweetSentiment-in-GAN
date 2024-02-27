@@ -26,7 +26,11 @@ Python Modules:
 * sentiment_analysis.py
 * model.py
 
-
+Setup/Notes:
+* Place data folder with input datasets, python modules in the same directory as Capstone_v1.ipynb
+* Create folder for each model before training model in data/models_gan 
+* To run each model, restart kernel, load Library, run Build Model Section before training specific model
+  
 ## Authors
 
 Yvonne Peh \
