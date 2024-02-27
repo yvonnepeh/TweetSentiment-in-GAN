@@ -7,8 +7,9 @@ The goal of the capstone is to evaluate the success of the usage of Sentiment An
 
 ## Getting Started
 ### Datasets
-* Stock Prices: Yahoo Finance
-* Twitter tweets: https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/data
+* Stock Prices: Yahoo Finance (AAPL.csv, GOOG.csv, MSFT.csv) 
+* Twitter tweets: https://www.kaggle.com/datasets/omermetinn/tweets-about-the-top-companies-from-2015-to-2020/data (Tweet.csv, Company_Tweet.csv) | 
+  This has to be downloaded from the website as datasets are too large to upload onto Github
   
 ### Dependencies
 All packages and its versions are listed in requirements.txt.
@@ -27,7 +28,7 @@ Python Modules:
 * model.py
 
 Setup/Notes:
-* Place data folder with input datasets, python modules in the same directory as Capstone_v1.ipynb
+* Place data folder with input datasets and python modules in the same directory as Capstone_v1.ipynb
 * Create folder for each model before training model in data/models_gan 
 * To run each model, restart kernel, load Library, run Build Model Section before training specific model
   
